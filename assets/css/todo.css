@@ -87,6 +87,15 @@ input {
     box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #container {
+        width: 90%;
+        font-size: 0.7rem;
+    }
+}
+
+
 .made {
     color: rgb(54, 54, 54);
     font-family: 'Raleway', sans-serif;
